@@ -1,8 +1,5 @@
 #include <cstdlib>
-#if defined(_WIN32) || defined(_WIN64) || defined(__WIN32__) || defined(__NT__)
-    #include <windows.h>
-#endif
-// Btw, not a virus. Just a rickroll.
+// This is not a virus; just a rickroll.
 int main(){
     #if defined(_WIN32) || defined(_WIN64) || defined(__WIN32__) || defined(__NT__)
         system("start https://www.youtube.com/watch?v=dQw4w9WgXcQ");
